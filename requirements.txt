@@ -4,7 +4,4 @@ pillow
 matplotlib
 streamlit-webrtc
 opencv-python-headless
-scikit-learn
 pandas
-plotly
-seaborn
