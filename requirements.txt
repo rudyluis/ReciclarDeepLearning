@@ -1,7 +1,7 @@
-streamlit 
+streamlit==1.26.0
 tensorflow==2.15.0
-pillow 
-matplotlib
-streamlit-webrtc
-opencv-python-headless
-pandas
+pillow==10.3.0
+matplotlib==3.7.3
+streamlit-webrtc==0.45.1
+opencv-python-headless==4.8.1.78
+pandas==2.1.4
