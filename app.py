@@ -13,7 +13,7 @@ st.title("♻️ Clasificador de Residuos con IA")
 st.markdown("Puedes tomar una foto desde tu **cámara móvil o web**, o subir una imagen para predecir el tipo de residuo.")
 
 # Etiquetas en español
-labels = ['Cartón', 'Vidrio', 'Metal', 'Papel', 'Plástico', 'Orgánico/Basura']
+labels = ['Vidrio', 'Papel', 'Plástico', 'Cartón', 'Metal', 'Orgánico/Basura']
 IMG_SIZE = (160, 160)
 
 # --- Cargar modelo ---
