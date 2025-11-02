@@ -1,12 +1,21 @@
-tensorflow-cpu==2.12.1
-numpy==1.23.5
-pillow==9.5.0
-matplotlib==3.7.3
-pandas==2.0.3
-opencv-python-headless==4.8.1.78
-streamlit==1.32.2
-streamlit-webrtc==0.47.6
-aiortc==1.6.0
-av==10.0.0
-h5py==3.8.0
-protobuf<4
+# Núcleo DL (Keras 3 + TF reciente)
+tensorflow-cpu==2.20.0
+keras==3.5.0
+numpy==1.26.4
+h5py==3.10.0
+protobuf==4.25.3
+
+# App
+streamlit==1.51.0
+
+# Imagen / utils
+pillow==10.3.0
+matplotlib==3.8.4
+pandas==2.2.2
+opencv-python-headless==4.9.0.80
+
+# Cámara (si la usas)
+streamlit-webrtc==0.53.10
+aiortc==1.10.1
+av==13.1.0
+
