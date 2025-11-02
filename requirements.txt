@@ -5,4 +5,4 @@ matplotlib
 streamlit-webrtc
 opencv-python-headless
 pandas
- 
+numpy
