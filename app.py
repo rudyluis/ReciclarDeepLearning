@@ -6,7 +6,7 @@ import cv2
 import matplotlib.pyplot as plt
 from streamlit_webrtc import webrtc_streamer, VideoTransformerBase
 import av
-
+tf.config.set_visible_devices([], 'GPU')
 # --- Configuración ---
 st.set_page_config(page_title="Clasificador de Residuos", layout="centered")
 st.title("♻️ Clasificador de Residuos con IA")
