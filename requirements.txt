@@ -1,7 +1,7 @@
-streamlit 
+streamlit==1.38.0
 tensorflow-cpu==2.11.0
-matplotlib
-streamlit-webrtc
-opencv-python-headless
-pandas
-numpy
+matplotlib==3.8.4
+streamlit-webrtc==0.47.1
+opencv-python-headless==4.10.0.84
+pandas==2.2.3
+numpy<2.0
