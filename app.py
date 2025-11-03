@@ -6,7 +6,10 @@ import cv2
 import matplotlib.pyplot as plt
 from streamlit_webrtc import webrtc_streamer, VideoTransformerBase
 import av
+import os
 tf.config.set_visible_devices([], 'GPU')
+os.environ["TF_FORCE_GPU_ALLOW_GROWTH"] = "true"
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"  # menos logs
 # --- Configuración ---
 st.set_page_config(page_title="Clasificador de Residuos", layout="centered")
 st.title("♻️ Clasificador de Residuos con IA")
