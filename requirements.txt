@@ -1,9 +1,17 @@
+# Core
+numpy<2
+pandas==2.2.3
+matplotlib
+
+# Machine Learning
+tensorflow-cpu>=2.12  # compatible con protobuf>=3.20
+
+# Web / App
 streamlit>=1.32
-pandas==2.2.3
-tensorflow-cpu==2.11.0
-matplotlib==3.8.4
-streamlit-webrtc==0.47.1
-opencv-python-headless==4.10.0.84
-pandas==2.2.3
-numpy<2.0
-protobuf==3.19.6
+streamlit-webrtc
+
+# OpenCV
+opencv-python-headless
+
+# Extras
+protobuf>=3.20  # satisface Streamlit y TensorFlow >=2.12
