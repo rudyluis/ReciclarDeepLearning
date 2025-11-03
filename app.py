@@ -5,6 +5,7 @@ import tensorflow as tf
 import cv2
 import matplotlib.pyplot as plt
 from streamlit_webrtc import webrtc_streamer, VideoTransformerBase
+from keras.models import load_model
 import av
 import os
 tf.config.set_visible_devices([], 'GPU')
@@ -22,7 +23,7 @@ IMG_SIZE = (160, 160)
 # --- Cargar modelo ---
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model('Garbage_clf.h5', compile=False)
+    return load_model("Garbage_clf.h5", compile=False, safe_mode=False)
 
 model = load_model()
 
