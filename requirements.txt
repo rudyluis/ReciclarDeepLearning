@@ -4,8 +4,8 @@ pandas==2.2.3
 matplotlib
 
 # Machine Learning
-tensorflow-cpu>=2.12  # compatible con protobuf>=3.20
-
+# tensorflow-cpu>=2.12  # compatible con protobuf>=3.20
+tensorflow-cpu==2.10.1
 # Web / App
 streamlit>=1.32
 streamlit-webrtc
