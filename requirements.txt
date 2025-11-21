@@ -4,11 +4,11 @@ pandas==2.2.3
 matplotlib
 
 # Machine Learning
-tensorflow-cpu==2.10.1
+tensorflow-cpu==2.18.0
 
 # Web / App
-streamlit==1.39.0
+streamlit      # sin versión, usará 1.51.0 en la nube
 streamlit-webrtc
 
-# OpenCV (si realmente lo usas en la app)
+# OpenCV
 opencv-python-headless
